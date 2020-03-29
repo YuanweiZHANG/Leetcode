@@ -2,7 +2,7 @@
 
 This repository includes following parts:
 
-- [**Algorithms**](./algorithms)
+- [**Algorithms**](./algorithms/README.md)
 
     Algorithms fold has analysis and explanation of spesific solutions of Leetcode question.
 
