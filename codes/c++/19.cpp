@@ -55,7 +55,8 @@ void deleteList(ListNode *head) {
 		delete_p->next = NULL;
 		delete delete_p;
 		delete_p = pointer;
-		pointer = pointer->next;
+		if (pointer)
+			pointer = pointer->next;
 	}
 }
 
