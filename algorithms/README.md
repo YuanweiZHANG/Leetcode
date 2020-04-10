@@ -27,7 +27,7 @@
 - [47. Permutations II](./47_Permutations-II.md)
 - [48. Rotate Image](./48_Rotate-Image.md)
 - [49. Group Anagrams](./49_Group-Anagrams.md)
-- [50. Pow(x, n)](./50_Pow_x,_n_.md)
+- [50. Pow(x, n)](./50_Pow_x,-n_.md)
 - [51. N-Queens](./51_N-Queens.md)
 - [52. N-Queens II](./52_N-Queens-II.md)
 - [53. Maximum Subarray](./53_Maximum-Subarray.md)
