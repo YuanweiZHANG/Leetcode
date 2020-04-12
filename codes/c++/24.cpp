@@ -45,6 +45,8 @@ void printList(ListNode *head) {
 }
 
 void deleteList(ListNode *head) {
+	if (!head)
+		return;
 	ListNode *pointer = head->next;
 	ListNode *delete_p = head;
 	while (delete_p != NULL) {
