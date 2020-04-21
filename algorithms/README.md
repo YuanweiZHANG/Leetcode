@@ -103,3 +103,4 @@
 - [1046. Last Stone Weight](./1046_Last-Stone-Weight.md)
 - [Counting Elements](./#1_Counting-Elements.md)
 - [Perform String Shifts](./#2_Perform-String-Shifts.md)
+- [Leftmost Column with at least a One](./#3_Leftmost-Column-with-at-Least-a-One.md)
