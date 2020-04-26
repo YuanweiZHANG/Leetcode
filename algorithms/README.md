@@ -95,6 +95,7 @@
 - [122. Best Time to Buy and Sell Stock II](./122_Best-Time-to-Buy-and-Sell-Stock-II.md)
 - [123. Best Time to Buy and Sell Stock III](./123_Best-Time-to-Buy-and-Sell-Stock-III.md)
 - [124. Binary Tree Maximum Path Sum](./124_Binary-Tree-Maximum-Path-Sum.md)
+- [125. Valid Palindrome](./125_Valid-Palindrome.md)
 - [136. Single Number](./136_Single-Number.md)
 - [146. LRU Cache](./146_LRU-Cache.md)
 - [155. Min Stack](./155_Min-Stack.md)
