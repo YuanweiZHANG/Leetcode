@@ -98,6 +98,7 @@
 - [125. Valid Palindrome](./125_Valid-Palindrome.md)
 - [127. Word Ladder](./127_Word-Ladder.md)
 - [129. Sum Root to Leaf Numbers](./129_Sum-Root-to-Leaf-Numbers.md)
+- [130. Surrounded Regions](./130_Surrounded-Regions.md)
 - [136. Single Number](./136_Single-Number.md)
 - [146. LRU Cache](./146_LRU-Cache.md)
 - [155. Min Stack](./155_Min-Stack.md)
@@ -120,3 +121,4 @@
 - [Perform String Shifts](./#2_Perform-String-Shifts.md)
 - [Leftmost Column with at least a One](./#3_Leftmost-Column-with-at-Least-a-One.md)
 - [First Unique Number](./#4_First-Unique-Number.md)
+- [Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree](./#5_Check-If-s-String-Is-a-Valid-Sequence-from-Root-to-Leaves-Path-in-a-Binary-Tree.md)
