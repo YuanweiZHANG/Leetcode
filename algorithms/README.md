@@ -116,6 +116,7 @@
 - [278. First Bad Version](./278_First-Bad-Version.md)
 - [283. Move Zeroes](./283_Move-Zeroes.md)
 - [383. Ransom Note](./383_Ransom-Note.md)
+- [387. First Unique Character in a String](./387_First-Unique-Character-in-a-String.md)
 - [476. Number Complement](./476_Number-Complement.md)
 - [525. Contiguous Array](./525_Contiguous-Array.md)
 - [543. Diameter of Binary Tree](./543_Diameter-of-Binary-Tree.md)
