@@ -14,37 +14,19 @@ public:
 			return 0;
 		int result = 0;
 		int row = matrix.size(), col = matrix[0].size();
-		vector<vector<int>> left(row + 1, vector<int>(col + 1, 0)), up(row + 1, vector<int>(col + 1, 0));
+		vector<vector<int>> left(row + 1, vector<int>(col + 1, 0));
 		for (int i = 0; i < row; ++i) {
 			for (int j = 0; j < col; ++j) {
-				if (matrix[i][j] == '0')
-					continue;
-				else {
+				if (matrix[i][j] == '1')
 					left[i + 1][j + 1] = left[i + 1][j] + 1;
-					up[i + 1][j + 1] = up[i][j + 1] + 1;
-					int l = left[i + 1][j + 1], u = up[i + 1][j + 1];
-					int minEdge = min(l, u);
-					for (int delta = 1; delta < minEdge; ++delta) {
-						result = max(result, delta * l);
-						if (i + 1 - delta == 0 || j + 1 - delta == 0)
-							break;
-						if (left[i + 1 - delta][j + 1 - delta] + delta < l) {
-							l = left[i + 1 - delta][j + 1 - delta] + delta;
-							result = max(result, delta * l);
-							break;
-						}
-					}
-					minEdge = min(l, u);
-					for (int delta = 1; delta < minEdge; ++delta) {
-						result
-						if (i + 1 - delta == 0 || j + 1 - delta == 0)
-							break;
-						if (up[i + 1 - delta][j + 1 - delta] + delta < u) {
-							u = up[i + 1 - delta][j + 1 - delta] + delta;
-							break;
-						}
-					}
-					result = max(result, l * u);
+			}
+		}
+		for (int i = 0; i < row; ++i) {
+			for (int j = 0; j < col; ++j) {
+				int width = left[i + 1][j + 1];
+				for (int k = i; k < row; ++k) {
+					width = min(width, left[k + 1][j + 1]);
+					result = max(result, width * (k - i + 1));
 				}
 			}
 		}
