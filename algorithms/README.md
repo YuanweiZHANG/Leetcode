@@ -2,6 +2,7 @@
 
 - [16. 3Sum Closest](./16_3Sum-Closest.md)
 - [17. Letter Combinations of a Phone Number](./17_Letter-Combinations-of-a-Phone-Number.md)
+- [18. 4Sum](./18_4Sum.md)
 - [19. Remove Nth Node From End of List](./19_Remove-Nth-Node-From-End-of-List.md)
 - [20. Valid Parentheses](./20_Valid-Parentheses.md)
 - [21. Merge Two Sorted Lists](./21_Merge-Two-Sorted-Lists.md)
@@ -61,6 +62,7 @@
 - [82. Remove Duplicates from Sorted List II](./82_Remove-Duplicates-from-Sorted-List-II.md)
 - [83. Remove Duplicates from Sorted List](./83_Remove-Duplicates-from-Sorted-List.md)
 - [84. Largest Rectangle in Histogram](./84_Largest-Rectangle-in-Histogram.md)
+- [85. Maximal Rectangle](./85_Maximal-Rectangle.md)
 - [86. Partition List](./86_Partition-List.md)
 - [87. Scramble String](./87_Scramble-String.md)
 - [89. Gray-Code](./89_Gray-Code.md)
@@ -134,6 +136,7 @@
 - [1008. Construct Binary Search Tree from Preorder Traversal](./1008_Construct-Binary-Search-Tree-from-Preorder-Traversal.md)
 - [1046. Last Stone Weight](./1046_Last-Stone-Weight.md)
 - [1143. Longest Common Subsequence](./1143_Longest-Common-Subsequence.md)
+- [1232. Check If It Is a Straight Line](./1232_Check-If-It-Is-a-Straight-Line.md)
 - [Counting Elements](./#1_Counting-Elements.md)
 - [Perform String Shifts](./#2_Perform-String-Shifts.md)
 - [Leftmost Column with at least a One](./#3_Leftmost-Column-with-at-Least-a-One.md)
